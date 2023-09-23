@@ -8,7 +8,7 @@ const Header = () => {
     <div className=" h-24 w-full bg-[#17798a] flex justify-between items-center p-8">
       <img className=" h-20" src={i1} alt="" />
       <ul className="flex justify-center items-center gap-8 uppercase cursor-pointer font-semibold">
-        <li className=" hover:text-white duration-150">Home</li>
+        <HashLink to={"/"}><li className=" hover:text-white duration-150">Home</li></HashLink>
         <li className=" hover:text-white duration-150">News</li>
         <li className=" hover:text-white duration-150">Theme</li>
         <li className=" hover:text-white duration-150">Contact Us</li>
