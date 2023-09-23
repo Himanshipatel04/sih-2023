@@ -1,5 +1,10 @@
 import React from "react";
 import i1 from "../assets/qzyi_g6i7_160725.jpg";
+import i2 from "../assets/automobile.jpg"
+import i3 from "../assets/healthcare.jpg"
+import i4 from "../assets/aerospace.jpg"
+import i5 from "../assets/law and justice.jpg"
+import i6 from "../assets/more.jpg"
 import Newsbar from "./Newsbar";
 import Contest from "./Contest";
 
@@ -27,7 +32,7 @@ const Home = () => {
           </div>
           <div className=" h-64 w-56 outline outline-2 outline-white bg-[#f0efb9] rounded-xl">
             <div className=" w-full overflow-hidden">
-              <img className=" w-full h-32 rounded-xl " src={i1} alt="" />
+              <img className=" w-full h-32 rounded-xl " src={i2} alt="" />
             </div>
             <div className=" p-4">
               <h1 className=" text-black text-center uppercase font-bold">
@@ -40,7 +45,7 @@ const Home = () => {
           </div>
           <div className=" h-64 w-56 outline outline-2 outline-white bg-[#f0efb9] rounded-xl">
             <div className=" w-full overflow-hidden">
-              <img className=" w-full h-32 rounded-xl " src={i1} alt="" />
+              <img className=" w-full h-32 rounded-xl " src={i3} alt="" />
             </div>
             <div className=" p-4">
               <h1 className=" text-black text-center uppercase font-bold">
@@ -56,7 +61,7 @@ const Home = () => {
         <div className=" w-full h-[25%] flex justify-around items-center">
           <div className=" h-64 w-56 outline outline-2 bg-[#f0efb9] outline-white rounded-xl">
             <div className=" w-full overflow-hidden">
-              <img className=" w-full h-32 rounded-xl " src={i1} alt="" />
+              <img className=" w-full h-32 rounded-xl " src={i5} alt="" />
             </div>
             <div className=" p-4">
               <h1 className=" text-black text-center uppercase font-bold">
@@ -69,7 +74,7 @@ const Home = () => {
           </div>
           <div className=" h-64 w-56 outline outline-2 bg-[#f0efb9] outline-white rounded-xl">
             <div className=" w-full overflow-hidden">
-              <img className=" w-full h-32 rounded-xl " src={i1} alt="" />
+              <img className=" w-full h-32 rounded-xl " src={i4} alt="" />
             </div>
             <div className=" p-4">
               <h1 className=" text-black text-center uppercase font-bold">
@@ -82,7 +87,7 @@ const Home = () => {
           </div>
           <div className=" h-64 w-56 outline outline-2 bg-[#f0efb9] outline-white rounded-xl">
             <div className=" w-full overflow-hidden">
-              <img className=" w-full h-32 rounded-xl " src={i1} alt="" />
+              <img className=" w-full h-32 rounded-xl " src={i6} alt="" />
             </div>
             <div className=" p-4">
               <h1 className=" text-black text-center uppercase font-bold">
