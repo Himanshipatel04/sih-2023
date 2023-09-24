@@ -38,7 +38,7 @@ const Login = () => {
           />
           <button
             type="submit"
-            className=" h-10 w-40 bg-white rounded-md uppercase hover:bg-[#000] duration-300"
+            className=" h-10 w-40 bg-white rounded-md uppercase hover:bg-[#28a32a] duration-300"
           >
             Next
           </button>
